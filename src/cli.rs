@@ -26,4 +26,9 @@ pub enum Commands {
     },
     /// List all templates
     List,
+    /// Delete a templates
+    Delete {
+        /// Delete template name
+        name: String,
+    },
 }

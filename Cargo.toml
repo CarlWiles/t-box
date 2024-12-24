@@ -1,6 +1,6 @@
 [package]
 name = "t-box"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "A CLI tool for managing file templates"
 license = "MIT"
@@ -12,6 +12,9 @@ readme = "README.md"
 [dependencies]
 clap = { version = "4.5.23", features = ["derive"] }
 clap_derive = "4.5.18"
+dirs = "4.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
 
 [[bin]]
 name = "t-box"
