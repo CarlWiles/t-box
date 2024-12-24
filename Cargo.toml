@@ -1,0 +1,18 @@
+[package]
+name = "t-box"
+version = "0.1.0"
+edition = "2021"
+description = "A CLI tool for managing file templates"
+license = "MIT"
+repository = "https://github.com/your-username/t-box"
+keywords = ["cli", "template", "toolbox"]
+categories = ["command-line-utilities"]
+readme = "README.md"
+
+[dependencies]
+clap = { version = "4.5.23", features = ["derive"] }
+clap_derive = "4.5.18"
+
+[[bin]]
+name = "t-box"
+path = "src/main.rs"
